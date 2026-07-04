@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bright Future Academy</title>
+    <link rel="stylesheet" href="style4.css" />
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#006366;
+    color:white;
+    padding:20px;
+}
+
+.main{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo h2{
+    font-size:32px;
+}
+.nav h2{
+    color: #006366;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: #b99bc5;
+}
+.container{
+    flex-direction: column;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.info-box,.form-box{
+    width: 500px;
+    max-width: 100%;
+    background:white;
+    padding:30px;
+    border-radius:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin: 20px;
+}
+
+.info-box h1,.form-box h1{
+    text-align:center;
+    color:#0A3D62;
+    margin-bottom:20px;
+}
+
+.info-box p{
+    line-height:1.8;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.info-box ul{
+    list-style:none;
+}
+
+.info-box ul li{
+    padding:10px;
+    margin:10px 0;
+    background:#eef4ff;
+    border-radius:20px;
+    text-align:center;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,select,textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    resize: none;
+
+}
+button{
+    padding:12px;
+    border:none;
+    border-radius:20px;
+    background:#0A3D62;
+    color:white;
+    font-size:16px;
+}
+legend{
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+</style>
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <div class="navbar">
+          <h2>Bright Future Academy</h2>
+        </div>
+        <div>
+          <ul>
+            <li><a href="index.html">index</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="teachers.html">teachers</a></li>
+            <li><a href="admission.html">admission</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <hr>
+ 
+
+    <div class="container">
+      <h1>Admission Form</h1>
+      <legend>
+      <div class="info-box">
+        
+        <h1>Admissions Open</h1>
+      
+</legend>
+        <p>
+          Bright Future Academy waxay soo dhaweynaysaa ardayda cusub ee doonaya
+          inay horumariyaan aqoontooda iyo xirfadahooda.
+        </p>
+
+        <ul>
+          <li>IT Program</li>
+          <li>Business Administration</li>
+          <li>English Language</li>
+          <li>Graphic Design</li>
+        </ul>
+      </div>
+      <legend>
+    
+
+      <div class="form-box">
+        
+        <h1>Apply Now</h1>
+</legend>
+        <form>
+          <input type="text" placeholder="Full Name" />
+
+          <input type="email" placeholder="Email Address" />
+
+          <input type="tel" placeholder="Phone Number" />
+
+          <select>
+            <option>Select Course</option>
+            <option>Information Technology</option>
+            <option>Business Administration</option>
+            <option>English Language</option>
+            <option>Graphic Design</option>
+          </select>
+
+          <textarea placeholder="Write your message"></textarea>
+
+          <button>Submit Application</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+    <h3>copyright &copy; 2026 Bright future Academy</h3>
+</footer>
+  </body>
+</html>
